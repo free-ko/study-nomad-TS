@@ -1,0 +1,9 @@
+{
+  "name": "study-nomad-typescript",
+  "version": "1.0.0",
+  "description": "Learning TypeScript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/free-ko/study-nomad-TS.git",
+  "author": "free-ko <duddnr654@naver.com>",
+  "license": "MIT"
+}

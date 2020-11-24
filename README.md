@@ -1,2 +1,3 @@
 # study-nomad-TS
-Study with TS
+
+- Learning TypeScript by making a Blockchain with it
