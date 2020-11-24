@@ -1,4 +1,4 @@
-# TS
+# 0.2 Introduction and What are we building
 
 - JS의 Superset, 프로그래밍 언어, 컴파일 하면 JS로 됩니다.
 - JS는 엄격한 규칙이 없습니다. 그래서 사용하기 쉽고 우리가 원하는 방향으로 수정하기 편합니다.

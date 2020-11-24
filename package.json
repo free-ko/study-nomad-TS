@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/free-ko/study-nomad-TS.git",
   "author": "free-ko <duddnr654@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
