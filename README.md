@@ -1,3 +1,3 @@
-# study-nomad-TS
+# study-typescript-nomad
 
 - Learning TypeScript by making a Blockchain with it
