@@ -1,18 +1,10 @@
-// 밑의 과정은 노마드 형님이 항상 프로젝트 할 때 이용하는 셋업입니다.
-// node.js를 평범하게 사용하고 다양한 걸 import 하거나 export 할 수 있게 만드는 과정 입니다.
 {
   "compilerOptions": {
     // 이것이 모듈입니다.
     "module": "commonjs",
-    // target은 어떤 버젼의 JS로 컴파일 되고 싶은지 적습니다.
     "target": "ES6",
-    // sourcemap 처리를 하고 싶은지 알려주는 것 입니다.
     "sourceMap": true
   },
-  // 이제 어떤 파일들이 컴파일 과정에서 포함되는지 TS에게 알려줍니다.
   "include": ["index.ts"],
-  // exclude는 node_modules를 추가합니다.
-  // 이번 경우에는 어떤 node_modules도 설치 하지 않을 겁니다. 
-  // 하지만 default로 제외 하는 것이 좋습니다.
   "exclude": ["node_modules"]
 }
