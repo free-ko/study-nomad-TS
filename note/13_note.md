@@ -1,3 +1,6 @@
+# Conclusions
+
+```ts
 import * as CryptoJS from "crypto-js";
 
 class Block {
@@ -64,6 +67,8 @@ const createNewBlock = (data: string): Block => {
     data,
     newTimestamp
   );
+  // 지금까지 addBlock을 createNewBlock 함수에 연결했음
+  // 이제 새로운 블록을 만들때 그걸 BlockChain에 추가 할 것임
   addBlock(newBlock);
   return newBlock;
 };
@@ -103,3 +108,4 @@ createNewBlock("fourth block");
 console.log(blockchain);
 
 export {};
+```
